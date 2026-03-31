@@ -690,7 +690,7 @@ class PopGenetics:
             self.stdev_fitness_per_gen  = [np.std(self.fitness_arr)]
 
         if verbose:
-            progress_bar = tqdm(total = n_gen, initial = self._gen, desc=f"[genepy] Evolution in progress", unit = "gen", file=sys.stdout,)
+            progress_bar = tqdm(total = n_gen, initial = self._gen, desc=f"[genetical] Evolution in progress", unit = "gen", file=sys.stdout,)
 
         indsort = np.argsort(self.fitness_arr)
         if elitist:

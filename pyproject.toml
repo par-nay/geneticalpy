@@ -3,9 +3,9 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "genepy"
+name = "genetical"
 version = "0.1.0"
-description = "GenePy - Genetic Algorithms with Python"
+description = "GeneticAl - Genetic Algorithms with Python"
 authors = [
   { name = "Parth Nayak", email = "parth3e8@gmail.com" }
 ]
@@ -24,7 +24,7 @@ dev = [
 ]
 
 [tool.setuptools]
-packages = ["genepy"]
+packages = ["genetical"]
 
 [tool.setuptools.package-dir]
 "" = "."
