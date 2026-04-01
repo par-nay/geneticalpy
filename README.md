@@ -1,4 +1,4 @@
-# GeneticAl
+# GeneticAlPy
 ### Genetic Algorithms with Python
 
 Yet another package for lightweight applications of GA in Python.
@@ -10,12 +10,12 @@ By default, the binary representation is chosen as the genotype. The package pro
 ## Quickstart 
 Install the package with `pip`
 ```
-pip install git+https://github.com/par-nay/genetical.git
+pip install geneticalpy
 ```
 
 Imports
 ```Python
-from genetical import genetical, examples
+from geneticalpy import genetical, examples
 import numpy as np
 import matplotlib.pyplot as plt
 ```
@@ -93,7 +93,7 @@ plt.show()
 
 
 ## Tutorial
-Check out the notebook at `tutorial/tutorial.ipynb` for a lightning tutorial of GeneticAl!
+Check out the notebook at `tutorial/tutorial.ipynb` for a lightning tutorial of GeneticAlPy!
 
 ## Get in touch
 Drop me an email at [parth3e8@gmail.com](mailto:parth3e8@gmail.com) in case of any questions or to request more functionality!
