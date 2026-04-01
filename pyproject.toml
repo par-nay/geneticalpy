@@ -4,8 +4,9 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "geneticalpy"
-version = "0.1.0"
+version = "0.1.1"
 description = "GeneticAlPy - Genetic Algorithms with Python"
+readme = "README.md"
 authors = [
   { name = "Parth Nayak", email = "parth3e8@gmail.com" }
 ]
@@ -16,12 +17,28 @@ dependencies = [
   "tqdm",
   "matplotlib",
 ]
+requires-python = ">=3.10"
+
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: GNU License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Scientific/Engineering",
+]
 
 [project.optional-dependencies]
 dev = [
   "pytest",
   "black",
 ]
+
+[project.urls]
+Homepage = "https://github.com/par-nay/geneticalpy"
+Repository = "https://github.com/par-nay/geneticalpy"
+Issues = "https://github.com/par-nay/geneticalpy/issues"
 
 [tool.setuptools]
 packages = ["geneticalpy"]
